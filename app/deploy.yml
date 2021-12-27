@@ -1,8 +1,0 @@
-spec:
-  name: PortfolioWebsite
-  static_sites:
-  - environment_slug: html
-    git:
-      branch: main
-      repo_clone_url: https://github.com/JoeyVillafuerte/PortfolioWebsite.git
-    name: PortfolioWebsite
