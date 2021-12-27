@@ -21,6 +21,14 @@ html {
     justify-content: space-between;
 }
 
+#about-anchor {
+    scroll-margin-top: 40px;
+}
+
+#project-anchor {
+    scroll-margin-top: 40px;
+}
+
 
 /* Navbar CSS */
 
@@ -73,6 +81,7 @@ html {
 
 .navbar-item {
     height: 80px;
+    scroll-margin-top: 2rem;
 }
 
 .navbar-links {
@@ -83,6 +92,7 @@ html {
     text-decoration: none;
     padding: 0 1rem;
     height: 100%;
+    scroll-margin-top: 100px;
 }
 
 .navbar-btn {
