@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joey Villafuerte</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/90eed6cacb.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Saira&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#hero" id="navbar-logo">Home</a>
+            <!-- Dropdown list when compressed -->
+            <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <ul class="navbar-menu">
+                <li class="navbar-item"><a href="#hero" class="navbar-links">Home</a></li>
+                <li class="navbar-item"><a href="#about" class="navbar-links">About</a></li>
+                <li class="navbar-item"><a href="#personal-projects" class="navbar-links">Projects</a></li>
+                <li class="navbar-item"><a href="#contact-me" class="navbar-links">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <p id="above">Hello! My name is</p>
+                <h1>Joey Villafuerte</h1>
+                <p id="below">and welcome to my website</p>
+                <!-- Clickable links -->
+                <div class="social-icons">
+                    <a href="https://github.com/JoeyVillafuerte" target="_blank">
+                        <i class="fab fa-github "></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/josef-villafuerte-bb69841a2/" target="_blank">
+                        <i class="fab fa-linkedin-in "></i>
+                    </a>
+                    <a href="./media/Joey Villafuerte Resume 2021.pdf" target="_blank">
+                        <i class="fas fa-file-pdf "></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Picture on the right side, future will move to about and put something cool here -->
+            <div class="hero-img--container">
+                <img id="hero-img" src="image/my head.png" />
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section>
+        <div class="about" id="about">
+            <h1>About me</h1>
+            <div class="about-container">
+                <p> Hello and welcome to my website! My name is Joey, a 22 year old Software Engineering student at <a href="https://ontariotechu.ca/" target="_blank">Ontario Tech University</a>. I love coding and my goal is to create any code that can solve
+                    real world problems that interest me. I have a love for artificial intelligence, machine learning, and web development.
+                    <br><br> I'm currently looking for a coop/internship for Summer 2022. When I'm not programming, my interests include creating bots on discord, hanging out with friends, and playing video games. I enjoy learning about different topics
+                    and am willing to try anything at least once.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personal Projects Section -->
+    <section>
+        <div class="personal-projects" id="personal-projects">
+            <h1>Personal Projects</h1>
+            <br>
+            <!--SNAKE GAME -->
+            <div style="display:inline-block;">
+                <div class="project-left">
+                    <p class="project-font">Web Browser Snake Game</p>
+                    <br>
+                    <p class="project-font2">
+                        A simple game of Snake, staying as true to the original game as possible. One of my very first projects working with a web browser :)
+                        <br><br> View on <a href="https://github.com/JoeyVillafuerte/Snake-Game" target="_blank">GitHub</a>. Created with HTML, CSS, and JavaScript.
+                    </p>
+                </div>
+
+                <div class="project-right">
+                    <img src="image/snakesnake.jpg">
+                </div>
+            </div>
+
+            <!-- DISCORD BOTBOT -->
+            <div style="display:inline-block;">
+                <div class="project-left">
+                    <p class="project-font">All Purpose Discord BotBot</p>
+                    <br>
+                    <p class="project-font2">
+                        A simple yet effective discord bot for everyday use. It contains fun features such as simple gambling, list creation, reminders, and many more functions in the works.
+                        <br><br> View on <a href="https://github.com/JoeyVillafuerte/Discord-BotBot" target="_blank">GitHub</a>. Created with Python, and many APIs
+                    </p>
+                </div>
+
+                <div class="project-right">
+                    <img src="image/discordbot.jpg">
+                </div>
+            </div>
+
+            <!-- GRAND CHASE -->
+            <div style="display:inline-block;">
+                <div class="project-left">
+                    <p class="project-font">Grand Chase Kakao Material Calculator</p>
+                    <br>
+                    <p class="project-font2">
+                        Work in progress material calculator for Grand Chase Kakao, a story based multiplayer online game played on mobile.
+                        <br><br> View on <a href="https://github.com/JoeyVillafuerte/GC-Kakao-Material-Calculator" target="_blank">GitHub</a>. Done as a way to learn and practice React.js
+                    </p>
+                </div>
+
+                <div class="project-right">
+                    <img src="image/grandchase.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <!-- 
+    <div class="services">
+        <h1>See what the hype is about</h1>
+        <div class="services-container">
+            <div class="services-card">
+                <h2>Experience Bliss</h2>
+                <p>AI Powered technology</p>
+                <button>Get Started</button>
+            </div>
+            <div class="services-card">
+                <h2>Are you Ready?</h2>
+                <p>Take the leap</p>
+                <button>Get Started</button>
+            </div>
+        </div>
+    </div>
+    -->
+
+    <footer id="contact-me">
+        <h1>Contact Me</h1>
+        <p>Thank you for taking the time to view my website!
+            <br>You can contact me through
+            <a id="footer-links" href="https://www.linkedin.com/in/josef-villafuerte-bb69841a2/" target="_blank">LinkedIn</a> or through an email at
+            <a id="footer-links" href="mailto:josef.r.villafuerte@gmail.com" target="_blank">josef.r.villafuerte@gmail.com</a>
+            <br> You can also reach me in the following places :)
+        </p>
+
+        <div class="social-icons">
+            <a href="https://github.com/JoeyVillafuerte" target="_blank">
+                <i class="fab fa-github "></i>
+            </a>
+            <a href="https://www.linkedin.com/in/josef-villafuerte-bb69841a2/" target="_blank">
+                <i class="fab fa-linkedin-in "></i>
+            </a>
+            <a href="./media/Joey Villafuerte Resume 2021.pdf" target="_blank">
+                <i class="fas fa-file-pdf "></i></a>
+        </div>
+        <p>last updated December 25th, 2021</p>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="ageCounter.js"></script>
+</body>
+
+</html>
